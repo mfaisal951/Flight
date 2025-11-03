@@ -5,7 +5,7 @@ import pandas as pd
 
 print("Fetching Data of Different Airports...")
 
-# Adding top 100 airports in the world
+# Adding top 100 airports in the worlds
 page = request.urlopen("https://gettocenter.com/airports/top-100-airports-in-world")
 soup = bs(page, features="html.parser")
 
